@@ -1,0 +1,290 @@
+$bgMainColor: #FDFDFD;
+$bgInfoColor: #FDFDFD;
+$fontHeaderColor: #E31F24;
+$borderColor: #DEDEDD;
+$fontSearchColor: #333333;
+$borderSearchColor: #E9ECEF;
+$borderCardColor: #E0E0E0;
+$fontTitleInfo: #76787D;
+$fontNameColor: #000000;
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 71.15vw;
+    height: 69.26vh;
+}
+
+.header-wrapper {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 2.96vh;
+    font-style: normal;
+    line-height: 3.61vh;
+    color: $fontHeaderColor;
+    margin: 4.63vh 0 0 2.60vw;
+}
+
+.main-window {
+    display: flex;
+    flex-direction: row;
+    width: 65.94vw;
+    height: 54.54vh;
+    background-color: $bgMainColor;
+    box-shadow: 0 0 0.52vw 0 rgba(0, 0, 0, 0.1);
+    border-radius: 0.52vw;
+    margin: 2.41vh 0 0 2.48vw;
+}
+
+.sidebar {
+    width: 15.16vw;
+    height: 54.54vh;
+}
+
+.info {
+    display: flex;
+    width: 50.78vw;
+    height: 54.54vh;
+    background-color: $bgInfoColor;
+    border-radius: 0 0.52vw 0.52vw 0;
+    border: 0.052vw solid $borderColor;
+}
+
+.form-search {
+    display: flex;
+    flex-direction: column;
+
+    label {
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-size: 1.48vh;
+        font-style: normal;
+        line-height: 2.07vh;
+        color: $fontSearchColor;
+        background-color: $bgMainColor;
+        margin: 2.5vh 0 0 1.2vw;
+    }
+
+    input {
+        width: 12.5vw;
+        height: 4.26vh;
+        margin: 2.04vh 0 0 1.2vw;
+        border: 0.14vh solid $borderSearchColor;
+        border-radius: 0.42vw;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-size: 1.30vh;
+        font-style: normal;
+        line-height: 1.58vh;
+        color: $fontTitleInfo;
+        padding-left: 0.83vw;
+
+    }
+}
+.title-resault{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 1.48vh;
+    font-style: normal;
+    line-height: 2.07vh;
+    color: $fontSearchColor;
+    background-color: $bgMainColor;
+    margin: 2.5vh 0 0 1.2vw;
+}
+.font-search-lable{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 1.48vh;
+    font-style: normal;
+    line-height: 2.07vh;
+    color: $fontSearchColor;
+    background-color: $bgMainColor;
+}
+.title-info{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 1.30vh;
+    font-style: normal;
+    line-height: 1.58vh;
+    color: $fontTitleInfo;
+    margin: 23.24vh 0 0 14.43vw;
+}
+.title-resault-info{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 1.30vh;
+    font-style: normal;
+    line-height: 1.58vh;
+    color: $fontTitleInfo;
+    margin: 0.93vh 0 0 1.2vw;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    width: 12.5vw;
+    height: 6.48vh;
+    box-shadow: 0 0 0.52vw 0 rgba(0, 0, 0, 0.1);
+    border-radius: 0.52vw;
+    border: 0.052vw solid $borderCardColor;
+    margin: 2.5vh 0 0 1.2vw;
+}
+.card-avatar{
+    width: 3.65vw;
+    height: 6.48vh;
+    
+}
+.card-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 8.85vw;
+    height: 6.48vh;
+    .card-info-name{
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-size: 1.30vh;
+        font-style: normal;
+        line-height: 1.58vh;
+        color: $fontSearchColor;
+        margin: 0;
+    }
+    .card-info-email{
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-size: 1.30vh;
+        font-style: normal;
+        line-height: 1.58vh;
+        color: $fontTitleInfo;
+        margin: 0;
+    }
+}
+.info-card{
+    display: flex;
+    flex-direction: row;
+    margin: 2.78vh 0 0 1.09vw;
+}
+.info-card-image{
+    width: 22.08vw;
+    height: 26.48vh;
+    border: 0.052vw solid $borderCardColor;
+    img{
+        width: 22.08vw;
+        height: 26.48vh;
+    }
+}
+.info-card-description{
+    width: 22.86vw;
+    height: 26.30vh;
+    margin: 0 0 0 3.18vw;
+    .info-card-description-name{
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-size: 1.48vh;
+        font-style: normal;
+        line-height: 2.07vh;
+        color: $fontNameColor;
+    }
+    .info-card-description-about-title{
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-size: 1.48vh;
+        font-style: normal;
+        line-height: 2.07vh;
+        color: $fontSearchColor;
+        margin: 1.85vh 0 0 0;
+    }
+    .info-card-description-about{
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-size: 1.30vh;
+        font-style: normal;
+        line-height: 1.58vh;
+        color: $fontTitleInfo;
+        margin: 2.31vh 0 0 0;
+    }
+    .info-card-description-email{
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-size: 1.30vh;
+        font-style: normal;
+        line-height: 1.81vh;
+        color: $fontSearchColor;
+        margin: 0.93vh 0 0 0.052vw;
+        .whitespace{
+            font-family: "Montserrat", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 600;
+            font-size: 1.48vh;
+            font-style: normal;
+            line-height: 2.07vh;
+            color: $fontTitleInfo;
+        }
+        .email{
+            font-family: "Montserrat", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-size: 1.30vh;
+            font-style: normal;
+            line-height: 1.81vh;
+            color: $fontTitleInfo;
+        }
+    }
+    .info-card-description-phone{
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-size: 1.30vh;
+        font-style: normal;
+        line-height: 1.81vh;
+        color: $fontSearchColor;
+        margin: 0.93vh 0 0 0.052vw;
+        .whitespace{
+            font-family: "Montserrat", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 600;
+            font-size: 1.48vh;
+            font-style: normal;
+            line-height: 2.07vh;
+            color: $fontTitleInfo;
+        }
+        .phone{
+            font-family: "Montserrat", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-size: 1.30vh;
+            font-style: normal;
+            line-height: 1.81vh;
+            color: $fontTitleInfo;
+        }
+    }
+}
+.scroll {
+    height: 38.7vh; 
+    overflow-y: auto;  
+    
+  } 
+  .active{
+    background-color: $borderCardColor;
+  } 

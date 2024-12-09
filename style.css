@@ -1,0 +1,328 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 71.15vw;
+  height: 69.26vh;
+}
+
+.header-wrapper {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 2.96vh;
+  font-style: normal;
+  line-height: 3.61vh;
+  color: #E31F24;
+  margin: 4.63vh 0 0 2.6vw;
+}
+
+.main-window {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 65.94vw;
+  height: 54.54vh;
+  background-color: #FDFDFD;
+  -webkit-box-shadow: 0 0 0.52vw 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 0.52vw 0 rgba(0, 0, 0, 0.1);
+  border-radius: 0.52vw;
+  margin: 2.41vh 0 0 2.48vw;
+}
+
+.sidebar {
+  width: 15.16vw;
+  height: 54.54vh;
+}
+
+.info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50.78vw;
+  height: 54.54vh;
+  background-color: #FDFDFD;
+  border-radius: 0 0.52vw 0.52vw 0;
+  border: 0.052vw solid #DEDEDD;
+}
+
+.form-search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.form-search label {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 1.48vh;
+  font-style: normal;
+  line-height: 2.07vh;
+  color: #333333;
+  background-color: #FDFDFD;
+  margin: 2.5vh 0 0 1.2vw;
+}
+.form-search input {
+  width: 12.5vw;
+  height: 4.26vh;
+  margin: 2.04vh 0 0 1.2vw;
+  border: 0.14vh solid #E9ECEF;
+  border-radius: 0.42vw;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 1.3vh;
+  font-style: normal;
+  line-height: 1.58vh;
+  color: #76787D;
+  padding-left: 0.83vw;
+}
+
+.title-resault {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 1.48vh;
+  font-style: normal;
+  line-height: 2.07vh;
+  color: #333333;
+  background-color: #FDFDFD;
+  margin: 2.5vh 0 0 1.2vw;
+}
+
+.font-search-lable {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 1.48vh;
+  font-style: normal;
+  line-height: 2.07vh;
+  color: #333333;
+  background-color: #FDFDFD;
+}
+
+.title-info {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 1.3vh;
+  font-style: normal;
+  line-height: 1.58vh;
+  color: #76787D;
+  margin: 23.24vh 0 0 14.43vw;
+}
+
+.title-resault-info {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 1.3vh;
+  font-style: normal;
+  line-height: 1.58vh;
+  color: #76787D;
+  margin: 0.93vh 0 0 1.2vw;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 12.5vw;
+  height: 6.48vh;
+  -webkit-box-shadow: 0 0 0.52vw 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 0.52vw 0 rgba(0, 0, 0, 0.1);
+  border-radius: 0.52vw;
+  border: 0.052vw solid #E0E0E0;
+  margin: 2.5vh 0 0 1.2vw;
+}
+
+.card-avatar {
+  width: 3.65vw;
+  height: 6.48vh;
+}
+
+.card-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 8.85vw;
+  height: 6.48vh;
+}
+.card-info .card-info-name {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 1.3vh;
+  font-style: normal;
+  line-height: 1.58vh;
+  color: #333333;
+  margin: 0;
+}
+.card-info .card-info-email {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 1.3vh;
+  font-style: normal;
+  line-height: 1.58vh;
+  color: #76787D;
+  margin: 0;
+}
+
+.info-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 2.78vh 0 0 1.09vw;
+}
+
+.info-card-image {
+  width: 22.08vw;
+  height: 26.48vh;
+  border: 0.052vw solid #E0E0E0;
+}
+.info-card-image img {
+  width: 22.08vw;
+  height: 26.48vh;
+}
+
+.info-card-description {
+  width: 22.86vw;
+  height: 26.3vh;
+  margin: 0 0 0 3.18vw;
+}
+.info-card-description .info-card-description-name {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 1.48vh;
+  font-style: normal;
+  line-height: 2.07vh;
+  color: #000000;
+}
+.info-card-description .info-card-description-about-title {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 1.48vh;
+  font-style: normal;
+  line-height: 2.07vh;
+  color: #333333;
+  margin: 1.85vh 0 0 0;
+}
+.info-card-description .info-card-description-about {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 1.3vh;
+  font-style: normal;
+  line-height: 1.58vh;
+  color: #76787D;
+  margin: 2.31vh 0 0 0;
+}
+.info-card-description .info-card-description-email {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 1.3vh;
+  font-style: normal;
+  line-height: 1.81vh;
+  color: #333333;
+  margin: 0.93vh 0 0 0.052vw;
+}
+.info-card-description .info-card-description-email .whitespace {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 1.48vh;
+  font-style: normal;
+  line-height: 2.07vh;
+  color: #76787D;
+}
+.info-card-description .info-card-description-email .email {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 1.3vh;
+  font-style: normal;
+  line-height: 1.81vh;
+  color: #76787D;
+}
+.info-card-description .info-card-description-phone {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 1.3vh;
+  font-style: normal;
+  line-height: 1.81vh;
+  color: #333333;
+  margin: 0.93vh 0 0 0.052vw;
+}
+.info-card-description .info-card-description-phone .whitespace {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 1.48vh;
+  font-style: normal;
+  line-height: 2.07vh;
+  color: #76787D;
+}
+.info-card-description .info-card-description-phone .phone {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 1.3vh;
+  font-style: normal;
+  line-height: 1.81vh;
+  color: #76787D;
+}
+
+.scroll {
+  height: 38.7vh;
+  overflow-y: auto;
+}
+
+.active {
+  background-color: #E0E0E0;
+}
