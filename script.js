@@ -71,11 +71,9 @@ Vue.component('wrapper', {
     methods: {
         async submit() {
             let inputSearch = document.getElementById('search').value;
-            console.log(inputSearch)
             if (inputSearch !== '') {
                 this.isSearch = false;
-                let inputSearchList = inputSearch.replaceAll(' ', '').split(",")
-                console.log(inputSearchList)
+                let inputSearchList = inputSearch.replaceAll(' ', '').split(",");
                 let resault = '';
                 let parameter = '';
                 if (/^\d+$/.test(inputSearchList[0])) {
@@ -90,7 +88,6 @@ Vue.component('wrapper', {
                         resault += '&'
                     }
                 });
-                console.log(resault)
                 const response = await fetch('https://jsonplaceholder.typicode.com/users?' + resault)
                 const json = await response.json();
                 if (json.length === 0) {
@@ -133,10 +130,8 @@ Vue.component('wrapper', {
             let parent = document.querySelector('.scroll');
             let cardItem = parent.querySelectorAll('.card');
             for (let i = 0; i < cardItem.length; i++) {
-                // Убираем у других
                 cardItem[i].classList.remove('active');
             }
-            // Добавляем тому на который нажали
             target.classList.add('active');
 
         }
